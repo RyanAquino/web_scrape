@@ -1,9 +1,15 @@
 # Simple Python 3 web scraper
-A simple python 3 program that scrapes the best selling cellphone accessories on amazon.com
-and saves it to excel sheet.
+Python program that scrapes Amazon.com Best seller cellphone accessories Device Name, Ratings, Price and Image url then extracts
+it in a xlsx format file.
 
-## Libraries
-* BeautifulSoup
-* Requests
-* xlsxwriter
+## Technology
+* Python 3
+* BeautifulSoup package
+* Requests package
+* xlsxwriter package
 
+## Setup
+To run this project:
+1. install python 3
+2. install required package `pip install -r requirements.txt`
+3. run program with `python index.py`
